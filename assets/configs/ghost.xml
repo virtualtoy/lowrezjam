@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Entity width="5" height="5" layer="-50" type="enemy">
+	<Graphic>
+		<Spritemap source="graphics/game/ghost.png" frameWidth="5" frameHeight="5" play="right">
+			<Animation name="right" frames="0" />
+			<Animation name="left" frames="1" />
+		</Spritemap>
+	</Graphic>
+</Entity>

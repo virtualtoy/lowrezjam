@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Entity layer="-200">
+	<Graphic>
+		<Stamp name="speechBubble" source="graphics/game/speech_bubble.png" visible="false" />
+		<Stamp name="speechBubbleTail" y="17" source="graphics/game/speech_bubble_tail.png" visible="false" />
+		<BitmapText name="speechBubbleText" x="2" y="2" width="28" height="20" font="font/nano.fnt" size="4" wordWrap="true" visible="false" />
+	</Graphic>
+</Entity>

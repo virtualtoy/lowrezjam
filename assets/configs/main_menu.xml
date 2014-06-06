@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Scene>
+	<Graphic>
+		<Backdrop name="background" source="graphics/mainmenu/background.png" repeatX="true" />
+		<Stamp source="graphics/mainmenu/lils_quest_logo.png" x="2" y="1" />
+		<Spritemap source="graphics/mainmenu/play_icon.png" x="2" y="18" frameWidth="5" frameHeight="6" play="default">
+			<Animation name="default" frameRate="2" frames="0,1" />
+		</Spritemap>
+		<Spritemap source="graphics/mainmenu/help_icon.png" x="2" y="25" frameWidth="5" frameHeight="6" play="default">
+			<Animation name="default" frameRate="2" frames="0,1" />
+		</Spritemap>
+	</Graphic>
+	<Entities>
+		<Entity class="lilsquest.ui.Button" name="sfxButton" x="0" y="0" normalState="graphics/mainmenu/sfx_btn_normal.png" activeState="graphics/mainmenu/sfx_btn_active.png" />
+		<Entity class="lilsquest.ui.Button" name="twitterButton" x="27" y="0" normalState="graphics/mainmenu/twitter_btn_normal.png" activeState="graphics/mainmenu/twitter_btn_active.png" />
+		<Entity class="lilsquest.ui.Button" name="playButton" x="2" y="18" normalState="graphics/mainmenu/play_btn_normal.png" activeState="graphics/mainmenu/play_btn_active.png" />
+		<Entity class="lilsquest.ui.Button" name="helpButton" x="2" y="25" normalState="graphics/mainmenu/help_btn_normal.png" activeState="graphics/mainmenu/help_btn_active.png" />
+		<Entity name="help_page_0">
+			<Graphic>
+				<Stamp source="graphics/mainmenu/help_page_0.png" />
+				<Spritemap source="graphics/mainmenu/play_icon.png" x="27" y="26" frameWidth="5" frameHeight="6" play="default">
+					<Animation name="default" frameRate="2" frames="0,1" />
+				</Spritemap>
+			</Graphic>
+		</Entity>
+		<Entity name="help_page_1">
+			<Graphic>
+				<Stamp source="graphics/mainmenu/help_page_1.png" />
+				<Spritemap source="graphics/mainmenu/play_icon.png" x="27" y="26" frameWidth="5" frameHeight="6" play="default">
+					<Animation name="default" frameRate="2" frames="0,1" />
+				</Spritemap>
+			</Graphic>
+		</Entity>
+	</Entities>
+</Scene>

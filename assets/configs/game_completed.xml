@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Scene>
+	<Graphic>
+		<Stamp source="graphics/gamecompleted/background.png" />
+		<BitmapText name="playTimeText" x="1" y="13" width="30" height="4" font="font/nano.fnt" size="4" />
+	</Graphic>
+	<Entities>
+		<Entity class="lilsquest.ui.Button" name="againButton" x="6" y="25" normalState="graphics/gamecompleted/again_button_normal.png" activeState="graphics/gamecompleted/again_button_active.png" />
+	</Entities>
+</Scene>

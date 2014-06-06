@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Entity name="player" width="3" height="8" layer="-100">
+	<Graphic>
+		<Spritemap x="-1" source="graphics/game/player.png" frameWidth="5" frameHeight="8" play="idle_right">
+			<Animation name="idle_right" frames="0" />
+			<Animation name="idle_left" frames="3" />
+			<Animation name="walk_right" frameRate="10" frames="0,1,0,2" />
+			<Animation name="walk_left" frameRate="10" frames="3,4,3,5" />
+			<Animation name="die_right" frameRate="6" frames="6,7,8,9,10,11" loop="false" />
+			<Animation name="die_left" frameRate="6" frames="12,13,14,15,16,17" loop="false" />
+		</Spritemap>
+	</Graphic>
+</Entity>

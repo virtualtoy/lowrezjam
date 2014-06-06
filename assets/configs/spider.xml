@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Entity width="5" height="4" layer="-50" type="enemy">
+	<Graphic>
+		<Stamp source="graphics/game/spider.png" />
+	</Graphic>
+</Entity>

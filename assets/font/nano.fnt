@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<font>
+  <info face="nano" size="4" bold="0" italic="0" charset="" unicode="1" stretchH="100" smooth="1" aa="4" padding="0,0,0,0" spacing="1,1" outline="0"/>
+  <common lineHeight="5" base="4" scaleW="32" scaleH="32" pages="1" packed="0" alphaChnl="1" redChnl="0" greenChnl="0" blueChnl="0"/>
+  <pages>
+    <page id="0" file="nano.png" />
+  </pages>
+  <chars count="43">
+    <char id="32" letter=" " x="0" y="0" width="1" height="1" xoffset="0" yoffset="0" xadvance="2" page="0" chnl="15" />
+    <char id="33" letter="!" x="4" y="0" width="1" height="4" xoffset="0" yoffset="0" xadvance="2" page="0" chnl="15" />
+    <char id="39" letter="'" x="6" y="0" width="1" height="5" xoffset="0" yoffset="0" xadvance="2" page="0" chnl="15" />
+    <char id="44" letter="," x="8" y="0" width="1" height="5" xoffset="0" yoffset="0" xadvance="2" page="0" chnl="15" />
+    <char id="45" letter="-" x="10" y="0" width="2" height="4" xoffset="0" yoffset="0" xadvance="3" page="0" chnl="15" />
+    <char id="46" letter="." x="13" y="0" width="1" height="4" xoffset="0" yoffset="0" xadvance="2" page="0" chnl="15" />
+    <char id="48" letter="0" x="15" y="0" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="49" letter="1" x="19" y="0" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="50" letter="2" x="23" y="0" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="51" letter="3" x="27" y="0" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="52" letter="4" x="0" y="5" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="53" letter="5" x="4" y="5" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="54" letter="6" x="8" y="5" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="55" letter="7" x="12" y="5" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="56" letter="8" x="16" y="5" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="57" letter="9" x="20" y="5" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="63" letter="?" x="24" y="5" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="65" letter="A" x="28" y="5" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="66" letter="B" x="0" y="10" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="67" letter="C" x="4" y="10" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="68" letter="D" x="8" y="10" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="69" letter="E" x="12" y="10" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="70" letter="F" x="16" y="10" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="71" letter="G" x="20" y="10" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="72" letter="H" x="24" y="10" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="73" letter="I" x="26" y="10" width="1" height="4" xoffset="0" yoffset="0" xadvance="2" page="0" chnl="15" />
+    <char id="74" letter="J" x="0" y="15" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="75" letter="K" x="4" y="15" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="76" letter="L" x="8" y="15" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="77" letter="M" x="12" y="15" width="6" height="4" xoffset="0" yoffset="0" xadvance="6" page="0" chnl="15" />
+    <char id="78" letter="N" x="18" y="15" width="3" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="79" letter="O" x="22" y="15" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="80" letter="P" x="26" y="15" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="81" letter="Q" x="0" y="20" width="4" height="4" xoffset="0" yoffset="0" xadvance="5" page="0" chnl="15" />
+    <char id="82" letter="R" x="5" y="20" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="83" letter="S" x="9" y="20" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="84" letter="T" x="13" y="20" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="85" letter="U" x="17" y="20" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="86" letter="V" x="21" y="20" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="87" letter="W" x="25" y="20" width="6" height="4" xoffset="0" yoffset="0" xadvance="6" page="0" chnl="15" />
+    <char id="88" letter="X" x="0" y="25" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="89" letter="Y" x="4" y="25" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+    <char id="90" letter="Z" x="8" y="25" width="4" height="4" xoffset="0" yoffset="0" xadvance="4" page="0" chnl="15" />
+  </chars>
+</font>

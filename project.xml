@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project>
+	
+	<meta title="lilsquest" package="lilsquest" version="1.1.0" company="virtualtoy" />
+	
+ 	<app file="Main" main="Main" path="bin" />
+	
+	<window fps="30" background="0x333333" />
+	<window width="480" height="480" resizable="true" unless="mobile" />
+	<window fullscreen="true" if="mobile" />
+	<window orientation="landscape" vsync="true" antialiasing="0" if="cpp" />
+	
+	<source path="src" />
+	
+	<haxeflag name="--macro" value="include('lilsquest.game.characters')" />
+	<haxeflag name="--macro" value="include('lilsquest.game.items')" />
+	<haxeflag name="--macro" value="include('lilsquest.game.roomscripts')" />
+	
+	<haxelib name="HaxePunk" />
+	
+	<assets path="assets/graphics" rename="graphics" include="*.png|*.jpg" />
+	<assets path="assets/audio" rename="audio" include="*.mp3" if="flash" />
+	<assets path="assets/audio" rename="audio" include="*.wav|*.ogg" unless="flash" />
+	<assets path="assets/font" rename="font" include="*.ttf|*.png|*.fnt" />
+	<assets path="assets/configs" rename="configs" include="*.xml" />
+	
+	<app preloader="lilsquest.preloader.Preloader" />
+	<icon path="assets/HaxePunk.svg" />
+	
+</project>

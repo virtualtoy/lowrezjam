@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<GameMap width="5" height="5">
+	<!-- row 0 -->
+	<Room x="0" y="0">
+		<Graphic>
+			<Image source="graphics/game/map.png" clipRect="0,0,32,32" />
+		</Graphic>
+	</Room>
+	<Room x="1" y="0">
+		<Graphic>
+			<Image source="graphics/game/map.png" clipRect="32,0,32,32" />
+		</Graphic>
+	</Room>
+	<Room x="2" y="0">
+		<Graphic>
+			<Image source="graphics/game/map.png" clipRect="64,0,32,32" />
+		</Graphic>
+		<Entities>
+			<Entity class="lilsquest.game.characters.Ghost" x="25" y="17">
+				<Tweens>
+					<LinearPath duration="4" type="Looping">
+						<Point x="25" y="17" />
+						<Point x="2" y="17" />
+						<Point x="25" y="17" />
+					</LinearPath>
+				</Tweens>
+			</Entity>
+		</Entities>
+	</Room>
+	<Room x="3" y="0">
+		<Graphic>
+			<Image source="graphics/game/map.png" clipRect="96,0,32,32" />
+		</Graphic>
+	</Room>
+	<Room x="4" y="0">
+		<Graphic>
+			<Image source="graphics/game/map.png" clipRect="128,0,32,32" />
+		</Graphic>
+	</Room>
+	<!-- row 1 -->
+	<Room x="0" y="1">
+		<Graphic>
+			<Image source="graphics/game/map.png" clipRect="0,32,32,32" />
+		</Graphic>
+	</Room>
+	<Room x="1" y="1">
+		<Graphic>
+			<Image source="graphics/game/map.png" clipRect="32,32,32,32" />
+		</Graphic>
+		<Entities>
+			<Entity class="lilsquest.game.roomscripts.RoomScript" />
+			<Entity class="lilsquest.game.items.Flag" x="14" y="24" />
+		</Entities>
+	</Room>
+	<Room x="2" y="1">
+		<Graphic>
+			<Image source="graphics/game/map.png" clipRect="64,32,32,32" />
+		</Graphic>
+		<Entities>
+			<Entity class="lilsquest.game.characters.Ghost" x="4" y="4">
+				<Tweens>
+					<LinearPath duration="7" type="Looping">
+						<Point x="4" y="4" />
+						<Point x="14" y="21" />
+						<Point x="23" y="4" />
+						<Point x="14" y="21" />
+						<Point x="4" y="4" />
+					</LinearPath>
+				</Tweens>
+			</Entity>
+		</Entities>
+	</Room>
+	<Room x="3" y="1">
+		<Graphic>
+			<Image source="graphics/game/map.png" clipRect="96,32,32,32" />
+		</Graphic>
+		<Entities>
+			<Entity class="lilsquest.game.roomscripts.RoomScript_3_1" />
+			<Entity name="cat" x="22" y="4" width="5" height="6">
+				<Graphic>
+					<Spritemap source="graphics/game/cat.png" frameWidth="3" frameHeight="6" play="default">
+						<Animation name="default" frameRate="3" frames="0,0,0,1,0,0,0,0,2,0,0,0,0,3,0,0,0,2,0,0,0,3" />
+					</Spritemap>
+					<Spritemap source="graphics/game/cat_tail.png" x="3" y="3" frameWidth="2" frameHeight="2" play="default">
+						<Animation name="default" frameRate="2" frames="0,1" />
+					</Spritemap>
+				</Graphic>
+			</Entity>
+		</Entities>
+	</Room>
+	<Room x="4" y="1">
+		<Graphic>
+			<Image source="graphics/game/map.png" clipRect="128,32,32,32" />
+		</Graphic>
+		<Entities>
+			<Entity class="lilsquest.game.roomscripts.RoomScript_4_1" />
+			<Entity name="knight" x="13" y="18" width="7" height="12">
+				<Graphic>
+					<Spritemap source="graphics/game/knight.png" frameWidth="7" frameHeight="12" play="handUp">
+						<Animation name="handUp" frames="0" />
+						<Animation name="handDown" frames="1" />
+					</Spritemap>
+				</Graphic>
+			</Entity>
+		</Entities>
+	</Room>
+	<!-- row 2 -->
+	<Room x="0" y="2">
+		<Graphic>
+			<Image source="graphics/game/map.png" clipRect="0,64,32,32" />
+		</Graphic>
+	</Room>
+	<Room x="1" y="2">
+		<Graphic>
+			<Image source="graphics/game/map.png" clipRect="32,64,32,32" />
+		</Graphic>
+		<Entities>
+			<Entity class="lilsquest.game.roomscripts.RoomScript_1_2" />
+			<Entity name="impHitArea" x="14" y="18" width="12" height="12" />
+			<Entity name="imp" x="4" y="22" width="7" height="8">
+				<Graphic>
+					<Spritemap source="graphics/game/imp.png" frameWidth="5" frameHeight="8" play="default">
+						<Animation name="default" frames="0" />
+						<Animation name="die" frameRate="6" frames="0,1,2,3,4,5" loop="false" />
+					</Spritemap>
+				</Graphic>
+			</Entity>
+			<Entity name="key" x="5" y="25" width="5" height="5">
+				<Graphic>
+					<Stamp source="graphics/game/key.png" />
+				</Graphic>
+			</Entity>
+		</Entities>
+	</Room>
+	<Room x="2" y="2">
+		<Graphic>
+			<Image source="graphics/game/map.png" clipRect="64,64,32,32" />
+		</Graphic>
+		<Entities>
+			<Entity class="lilsquest.game.roomscripts.RoomScript" />
+			<Entity class="lilsquest.game.items.Flag" x="15" y="18" />
+		</Entities>
+	</Room>
+	<Room x="3" y="2">
+		<Graphic>
+			<Image source="graphics/game/map.png" clipRect="96,64,32,32" />
+		</Graphic>
+		<Entities>
+			<Entity class="lilsquest.game.characters.Spider" x="14" y="26">
+				<Tweens>
+					<LinearPath duration="6" type="Looping">
+						<Point x="14" y="26" />
+						<Point x="14" y="7" />
+						<Point x="14" y="26" />
+					</LinearPath>
+				</Tweens>
+			</Entity>
+			<Entity class="lilsquest.game.characters.Ghost" x="25" y="16">
+				<Tweens>
+					<LinearPath duration="8" type="Looping">
+						<Point x="25" y="16" />
+						<Point x="2" y="16" />
+						<Point x="25" y="16" />
+					</LinearPath>
+				</Tweens>
+			</Entity>
+		</Entities>
+	</Room>
+	<Room x="4" y="2">
+		<Graphic>
+			<Image source="graphics/game/map.png" clipRect="128,64,32,32" />
+		</Graphic>
+	</Room>
+	<!-- row 3 -->
+	<Room x="0" y="3">
+		<Graphic>
+			<Image source="graphics/game/map.png" clipRect="0,96,32,32" />
+		</Graphic>
+	</Room>
+	<Room x="1" y="3">
+		<Graphic>
+			<Image source="graphics/game/map.png" clipRect="32,96,32,32" />
+		</Graphic>
+		<Entities>
+			<Entity class="lilsquest.game.roomscripts.RoomScript" />
+			<Entity class="lilsquest.game.items.Flag" x="5" y="24" />
+		</Entities>
+	</Room>
+	<Room x="2" y="3">
+		<Graphic>
+			<Image source="graphics/game/map.png" clipRect="64,96,32,32" />
+		</Graphic>
+		<Entities>
+			<Entity class="lilsquest.game.characters.Spider" x="14" y="24">
+				<Tweens>
+					<LinearPath duration="6" type="Looping">
+						<Point x="14" y="24" />
+						<Point x="2" y="24" />
+						<Point x="25" y="24" />
+						<Point x="14" y="24" />
+					</LinearPath>
+				</Tweens>
+			</Entity>
+		</Entities>
+	</Room>
+	<Room x="3" y="3">
+		<Graphic>
+			<Image source="graphics/game/map.png" clipRect="96,96,32,32" />
+		</Graphic>
+		<Entities>
+			<Entity class="lilsquest.game.roomscripts.RoomScript_3_3" />
+			<Entity name="witch" x="16" y="21" width="8" height="9">
+				<Graphic>
+					<Spritemap source="graphics/game/witch.png" x="1" frameWidth="6" frameHeight="9" play="default">
+						<Animation name="default" frames="0" />
+					</Spritemap>
+				</Graphic>
+			</Entity>
+			<Entity name="potion" x="12" y="21" width="4" height="9">
+				<Graphic>
+					<Spritemap source="graphics/game/potion.png" frameWidth="4" frameHeight="9" play="default">
+						<Animation name="default" frameRate="3" frames="0,1,2,3,4" />
+					</Spritemap>
+				</Graphic>
+			</Entity>
+			<Entity name="cat" x="25" y="24">
+				<Graphic>
+					<Spritemap source="graphics/game/cat.png" frameWidth="3" frameHeight="6" play="default">
+						<Animation name="default" frameRate="3" frames="0,0,0,1,0,0,0,0,2,0,0,0,0,3,0,0,0,2,0,0,0,3" />
+					</Spritemap>
+					<Spritemap source="graphics/game/cat_tail.png" x="3" y="3" frameWidth="2" frameHeight="2" play="default">
+						<Animation name="default" frameRate="2" frames="0,1" />
+					</Spritemap>
+				</Graphic>
+			</Entity>
+		</Entities>
+	</Room>
+	<Room x="4" y="3">
+		<Graphic>
+			<Image source="graphics/game/map.png" clipRect="128,96,32,32" />
+		</Graphic>
+	</Room>
+	<!-- row 4 -->
+	<Room x="0" y="4">
+		<Graphic>
+			<Image source="graphics/game/map.png" clipRect="0,128,32,32" />
+		</Graphic>
+		<Entities>
+			<Entity class="lilsquest.game.roomscripts.RoomScript_0_4" />
+			<Entity name="boyHitArea" x="8" y="20" width="8" height="10" />
+			<Entity name="boy" x="1" y="23">
+				<Graphic>
+					<Spritemap source="graphics/game/boy.png" frameWidth="4" frameHeight="7" play="idle">
+						<Animation name="idle" frames="0" />
+						<Animation name="walk" frameRate="10" frames="0,1,0,2" />
+					</Spritemap>
+				</Graphic>
+			</Entity>
+			<Entity name="jailDoorHitArea" x="8" y="20" width="4" height="10" />
+			<Entity name="jailDoor" x="5" y="18">
+				<Graphic>
+					<Stamp source="graphics/game/jail_door.png" />
+				</Graphic>
+			</Entity>
+			<Entity name="witch" x="32" y="21" visible="false">
+				<Graphic>
+					<Spritemap source="graphics/game/witch.png" frameWidth="6" frameHeight="9" play="walk">
+						<Animation name="idle" frames="0" />
+						<Animation name="walk" frameRate="10" frames="0,1,0,2" />
+					</Spritemap>
+				</Graphic>
+			</Entity>
+			<Entity name="cake" x="9" y="25" visible="false">
+				<Graphic>
+					<Stamp source="graphics/game/cake.png" />
+				</Graphic>
+			</Entity>
+			<Entity name="twin" x="32" y="22" visible="false">
+				<Graphic>
+					<Spritemap source="graphics/game/player.png" frameWidth="5" frameHeight="8" play="walk">
+						<Animation name="idle" frames="3" />
+						<Animation name="walk" frameRate="10" frames="3,4,3,5" />
+					</Spritemap>
+				</Graphic>
+			</Entity>
+		</Entities>
+	</Room>
+	<Room x="1" y="4">
+		<Graphic>
+			<Image source="graphics/game/map.png" clipRect="32,128,32,32" />
+		</Graphic>
+	</Room>
+	<Room x="2" y="4">
+		<Graphic>
+			<Image source="graphics/game/map.png" clipRect="64,128,32,32" />
+		</Graphic>
+	</Room>
+	<Room x="3" y="4">
+		<Graphic>
+			<Image source="graphics/game/map.png" clipRect="96,128,32,32" />
+		</Graphic>
+		<Entities>
+			<Entity class="lilsquest.game.characters.Spider" x="10" y="4">
+				<Tweens>
+					<LinearPath duration="4" type="Looping">
+						<Point x="10" y="4" />
+						<Point x="10" y="22" />
+						<Point x="10" y="4" />
+					</LinearPath>
+				</Tweens>
+			</Entity>
+		</Entities>
+	</Room>
+	<Room x="4" y="4">
+		<Graphic>
+			<Image source="graphics/game/map.png" clipRect="128,128,32,32" />
+		</Graphic>
+		<Entities>
+			<Entity class="lilsquest.game.roomscripts.RoomScript_4_4" />
+			<Entity name="shrubbery" x="24" y="5" width="5" height="5">
+				<Graphic>
+					<Stamp source="graphics/game/shrubbery.png" />
+				</Graphic>
+			</Entity>
+			<Entity class="lilsquest.game.items.Flag" x="13" y="24" />
+		</Entities>
+	</Room>
+</GameMap>

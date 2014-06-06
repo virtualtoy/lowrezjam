@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Entity width="4" height="4" layer="-50" type="enemy">
+	<Graphic>
+		<Spritemap source="graphics/game/fireball.png" frameWidth="4" frameHeight="4" play="default">
+			<Animation name="default" frameRate="10" frames="0,1" />
+		</Spritemap>
+	</Graphic>
+</Entity>
